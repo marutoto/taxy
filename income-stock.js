@@ -26,7 +26,9 @@
     var stock = Number(prompt('ストックオプション？（万円）'))
 
     var valid = (function () {
-        return !isNaN(nenshuu) && !isNaN(stock)
+        return (
+            !isNaN(nenshuu) && !isNaN(stock) && 0 < nenshuu && 0 < stock
+        )
     })()
 
     if (!valid) {
