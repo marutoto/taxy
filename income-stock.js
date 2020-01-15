@@ -22,8 +22,8 @@
     // # 所得税計算
     // ref. https://www.nta.go.jp/taxes/shiraberu/shinkoku/tebiki/2018/b/03/order4/3-4_26.htm
 
-    var nenshuu = Number(prompt('年収？（円）'))
-    var stock = Number(prompt('ストックオプション？（円）'))
+    var nenshuu = Number(prompt('年収？（万円）'))
+    var stock = Number(prompt('ストックオプション？（万円）'))
 
     var valid = (function () {
         return !isNaN(nenshuu) && !isNaN(stock)
@@ -32,6 +32,9 @@
     if (!valid) {
         return 'ちゃんと入れて'
     }
+
+    nenshuu = nenshuu * 10000
+    stock = stock * 10000
 
     // Retio, Deduction
     var ret = getRatioDeduction(nenshuu)
