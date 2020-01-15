@@ -12,5 +12,5 @@ document.body.appendChild(ele)
 **RawGit will soon shut down and is no longer serving new repos.**
 https://rawgit.com/marutoto/taxy/master/income-sto.js
 
-Instead of
+Instead
 https://www.jsdelivr.com/rawgit
