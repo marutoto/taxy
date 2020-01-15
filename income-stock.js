@@ -32,7 +32,8 @@
     })()
 
     if (!valid) {
-        return 'ちゃんと入れて'
+        alert('ちゃんと入れて')
+        return
     }
 
     nenshuu = nenshuu * 10000
