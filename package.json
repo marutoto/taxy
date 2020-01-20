@@ -5,6 +5,6 @@
   "author": "kentaro.yamauchi <kentaro.yamauchi@eure.jp>",
   "license": "MIT",
   "scripts": {
-    "test": "echo HOGEHOGE"
+    "test": "echo HOGEHOGE; exit 1"
   }
 }
