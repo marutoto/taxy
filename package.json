@@ -1,0 +1,10 @@
+{
+  "name": "taxy",
+  "version": "1.0.0",
+  "repository": "git@github.com:marutoto/taxy.git",
+  "author": "kentaro.yamauchi <kentaro.yamauchi@eure.jp>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo HOGEHOGE"
+  }
+}
