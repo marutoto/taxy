@@ -5,6 +5,6 @@
   "author": "kentaro.yamauchi <kentaro.yamauchi@eure.jp>",
   "license": "MIT",
   "scripts": {
-    "test": "echo HOGEHOGE"
+    "test": "node file_exists.js"
   }
 }
